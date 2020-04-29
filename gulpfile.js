@@ -87,7 +87,7 @@ gulp.task(
       .pipe(plugins.istanbul.writeReports());
   })
 );
-
+/*
 gulp.task(
   'test:browser',
   gulp.series('build:browser', function testBrowser(done) {
@@ -105,9 +105,12 @@ gulp.task(
     server.start();
   })
 );
-
+*/
 gulp.task('test:watch', function() {
-  return gulp.watch(['src/**/*', 'test/unit/**/*.js'], gulp.series(['clear-screen', 'test:node']));
+  return gulp.watch(
+    ['src/**/*', 'test/unit/**/*.js'],
+    gulp.series(['clear-screen', 'test:node'])
+  );
 });
 
 gulp.task(
