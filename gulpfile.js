@@ -142,7 +142,7 @@ gulp.task('clean', function clean() {
 
 gulp.task('build', gulp.series('clean', 'build:node', 'build:browser'));
 
-gulp.task('test', gulp.series('clean', 'test:node', 'test:browser'));
+gulp.task('test', gulp.series('clean', 'test:node' /*, 'test:browser'*/));
 
 gulp.task('default', gulp.series('build'));
 
