@@ -1,6 +1,6 @@
 import { Hyper } from 'js-xdr';
 import BigNumber from 'bignumber.js';
-import isString from 'lodash/isString';
+import { isString } from 'lodash';
 import xdr from '../generated/stellar-xdr_generated';
 
 /**

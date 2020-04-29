@@ -2,9 +2,7 @@
 
 import base32 from 'base32.js';
 import crc from 'crc';
-import isUndefined from 'lodash/isUndefined';
-import isNull from 'lodash/isNull';
-import isString from 'lodash/isString';
+import { isNull, isString, isUndefined } from 'lodash';
 import { verifyChecksum } from './util/checksum';
 import xdr from './generated/stellar-xdr_generated';
 

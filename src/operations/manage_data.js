@@ -1,4 +1,4 @@
-import isString from 'lodash/isString';
+import { isString } from 'lodash';
 import xdr from '../generated/stellar-xdr_generated';
 
 /**

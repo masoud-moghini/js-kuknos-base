@@ -1,4 +1,4 @@
-import isUndefined from 'lodash/isUndefined';
+import isUndefined from 'lodash';
 import xdr from '../generated/stellar-xdr_generated';
 
 /**

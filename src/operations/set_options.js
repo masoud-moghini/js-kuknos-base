@@ -1,8 +1,6 @@
 /* eslint-disable no-param-reassign */
 
-import isUndefined from 'lodash/isUndefined';
-import isString from 'lodash/isString';
-
+import { isUndefined, isString } from 'lodash';
 import xdr from '../generated/stellar-xdr_generated';
 import { Keypair } from '../keypair';
 import { StrKey } from '../strkey';

@@ -1,6 +1,4 @@
-import isUndefined from 'lodash/isUndefined';
-import isString from 'lodash/isString';
-import clone from 'lodash/clone';
+import { isUndefined, isString, clone } from 'lodash';
 import { UnsignedHyper } from 'js-xdr';
 import BigNumber from 'bignumber.js';
 import xdr from './generated/stellar-xdr_generated';

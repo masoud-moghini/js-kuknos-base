@@ -1,4 +1,4 @@
-import map from 'lodash/map';
+import { map } from 'lodash';
 import xdr from './generated/stellar-xdr_generated';
 import { hash } from './hashing';
 

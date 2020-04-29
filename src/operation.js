@@ -2,11 +2,7 @@
 
 import { Hyper } from 'js-xdr';
 import BigNumber from 'bignumber.js';
-import trimEnd from 'lodash/trimEnd';
-import isUndefined from 'lodash/isUndefined';
-import isString from 'lodash/isString';
-import isNumber from 'lodash/isNumber';
-import isFinite from 'lodash/isFinite';
+import { trimEnd, isUndefined, isString, isNumber, isFinite } from 'lodash';
 import { best_r } from './util/continued_fraction';
 import { Asset } from './asset';
 import { StrKey } from './strkey';

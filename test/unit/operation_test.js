@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js';
-import isString from 'lodash/isString';
+import { isString } from 'lodash';
 import { Hyper } from 'js-xdr';
 
 describe('Operation', function() {

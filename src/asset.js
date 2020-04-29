@@ -1,6 +1,4 @@
-import clone from 'lodash/clone';
-import padEnd from 'lodash/padEnd';
-import trimEnd from 'lodash/trimEnd';
+import { clone, padEnd, trimEnd } from 'lodash';
 import xdr from './generated/stellar-xdr_generated';
 import { Keypair } from './keypair';
 import { StrKey } from './strkey';
