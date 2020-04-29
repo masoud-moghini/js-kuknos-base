@@ -20,7 +20,6 @@
     "/dist",
     "/types/index.d.ts"
   ],
-  
   "browser": {
     "sodium-native": false
   },
