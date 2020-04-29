@@ -26,6 +26,7 @@ export function manageBuyOffer(opts) {
     throw new TypeError(this.constructAmountRequirementsError('buyAmount'));
   }
   attributes.buyAmount = this._toXDRAmount(opts.buyAmount);
+  console.error(opts.price);
   if (isUndefined(opts.price)) {
     throw new TypeError('price argument is required');
   }
