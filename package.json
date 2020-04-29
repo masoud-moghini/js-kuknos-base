@@ -20,17 +20,7 @@
     "/dist",
     "/types/index.d.ts"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.{js,json}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
+  
   "browser": {
     "sodium-native": false
   },
