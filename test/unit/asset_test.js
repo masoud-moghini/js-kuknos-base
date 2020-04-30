@@ -40,7 +40,7 @@ describe('Asset', function() {
   describe('getCode()', function() {
     it('returns a code for a native asset object', function() {
       var asset = new StellarBase.Asset.native();
-      expect(asset.getCode()).to.be.equal('pmn');
+      expect(asset.getCode()).to.be.equal('PMN');
     });
 
     it('returns a code for a non-native asset', function() {
