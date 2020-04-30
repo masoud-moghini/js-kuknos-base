@@ -21,7 +21,7 @@ export class Asset {
         'Asset code is invalid (maximum alphanumeric, 12 characters at max)'
       );
     }
-    if (String(code).toLowerCase() !== 'xlm' && !issuer) {
+    if (String(code).toLowerCase() !== 'pmn' && !issuer) {
       throw new Error('Issuer cannot be null');
     }
     if (issuer && !StrKey.isValidEd25519PublicKey(issuer)) {
