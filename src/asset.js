@@ -37,7 +37,7 @@ export class Asset {
    * @Return {Asset}
    */
   static native() {
-    return new Asset('XLM');
+    return new Asset('PMN');
   }
 
   /**
